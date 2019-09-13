@@ -33,7 +33,6 @@ async function main() {
           // Handle error
           console.error(err);
         } else {
-          console.log('File: ', folder);
           console.log('Folder Id: ', folder.data.id);
           var folderId = folder.data.id;
           var fileMetadata = {
